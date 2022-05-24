@@ -1,0 +1,236 @@
+<!DOCTYPE HTML><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><meta name="keywords" content="黑客工具,渗透测试,Web安全"><meta name="description" content="Kali是一个渗透测试兼安全审计平台，集成了多款漏洞检测、目标识别和漏洞利用工具，在信息安全业界有着广泛的用途。"><meta name="baidu-site-verification" content="I5ewY9HJK4"><meta name="google-site-verification" content="xkdmZisfHr2IJtGBe1P9kwzeL3gxUI25S3jLeayaqLc"><title>Kali | DongHuangT1&#39;s Blog</title><link rel="icon" href="/favicon.ico"><link rel="preconnect" href="https://fastly.jsdelivr.net"><link rel="preconnect" href="https://images.unsplash.com"><link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/DongHuangT1/DongHuangT1.github.io/library/lightgallery/lightgallery.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/DongHuangT1/DongHuangT1.github.io/library/materialize/materialize.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/DongHuangT1/DongHuangT1.github.io/library/awesome/awesome.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/DongHuangT1/DongHuangT1.github.io/master/master.css"><script src="https://fastly.jsdelivr.net/gh/DongHuangT1/DongHuangT1.github.io/library/jquery/jquery.js"></script></head><body><header class="navbar-fixed"><nav id="headNav" class="bg-color nav-transparent"><div id="navContainer" class="nav-wrapper container"><a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a><ul class="right nav-menu"><li class="hide-on-med-and-down nav-item"><a href="/" class="waves-effect waves-light"><i class="fas fa-home"></i> <span>首页</span></a></li><li class="hide-on-med-and-down nav-item"><a href="/tags/" class="waves-effect waves-light"><i class="fas fa-leaf"></i> <span>标签</span></a></li><li class="hide-on-med-and-down nav-item"><a href="" class="waves-effect waves-light"><i class="fas fa-layer-group"></i> <span>分类&nbsp;</span><i class="fas fa-chevron-down"></i></a><ul class="sub-nav menus_item_child"><li><a href="/categories/%E6%8E%A8%E8%8D%90/"><i class="fas fa-tint"></i> <span>推荐</span></a></li><li><a href="/categories/%E7%AC%94%E8%AE%B0/"><i class="fas fa-bookmark"></i> <span>笔记</span></a></li><li><a href="/categories/%E5%AE%89%E5%85%A8/"><i class="fas fa-shield-alt"></i> <span>安全</span></a></li></ul></li><li class="hide-on-med-and-down nav-item"><a href="/archives/" class="waves-effect waves-light"><i class="fas fa-clipboard-list"></i> <span>日志</span></a></li><li class="hide-on-med-and-down nav-item"><a href="" class="waves-effect waves-light"><i class="fas fa-wrench"></i> <span>工具&nbsp;</span><i class="fas fa-chevron-down"></i></a><ul class="sub-nav menus_item_child"><li><a href="/armory/"><i class="fas fa-rocket"></i> <span>武&nbsp;器&nbsp;库&nbsp;</span></a></li><li><a href="/crypto/"><i class="fas fa-key"></i> <span>加&nbsp;解&nbsp;密&nbsp;</span></a></li><li><a href="/message/"><i class="fab fa-snapchat-ghost"></i> <span>聊&nbsp;天&nbsp;室&nbsp;</span></a></li></ul></li><li class="hide-on-med-and-down nav-item"><a href="" class="waves-effect waves-light"><i class="fas fa-paper-plane"></i> <span>关于&nbsp;</span><i class="fas fa-chevron-down"></i></a><ul class="sub-nav menus_item_child"><li><a href="/about/"><i class="fas fa-address-card"></i> <span>简介</span></a></li><li><a href="/gallery/"><i class="fas fa-image"></i> <span>相册</span></a></li><li><a href="/friends/"><i class="fas fa-link"></i> <span>友链</span></a></li></ul></li><li><a href="#Search" class="modal-trigger"><i class="fas fa-search" title="搜索"></i></a></li></ul><div id="mobile-nav" class="side-nav sidenav"><div class="mobile-head bg-color"><img no-lazy src="https://fastly.jsdelivr.net/gh/DongHuangT1/DongHuangT1.github.io/images/head.jpg" class="circle responsive-img"><div class="logo-name">DongHuangT1</div><div class="logo-desc">『一个网络安全从业者的个人博客』</div></div><ul class="menu-list mobile-menu-list"><li class="m-nav-item"><a href="/" class="waves-effect waves-light"><i class="fa-fw fas fa-home"></i> 首页</a></li><li class="m-nav-item"><a href="/tags/" class="waves-effect waves-light"><i class="fa-fw fas fa-leaf"></i> 标签</a></li><li class="m-nav-item"><a href="javascript:;"><i class="fa-fw fas fa-layer-group"></i> 分类<span class="m-icon"><i class="fas fa-chevron-right"></i></span></a><ul><li><a href="/categories/%E6%8E%A8%E8%8D%90/"><i class="fas fa-tint"></i> <span>推荐</span></a></li><li><a href="/categories/%E7%AC%94%E8%AE%B0/"><i class="fas fa-bookmark"></i> <span>笔记</span></a></li><li><a href="/categories/%E5%AE%89%E5%85%A8/"><i class="fas fa-shield-alt"></i> <span>安全</span></a></li></ul></li><li class="m-nav-item"><a href="/archives/" class="waves-effect waves-light"><i class="fa-fw fas fa-clipboard-list"></i> 日志</a></li><li class="m-nav-item"><a href="javascript:;"><i class="fa-fw fas fa-wrench"></i> 工具<span class="m-icon"><i class="fas fa-chevron-right"></i></span></a><ul><li><a href="/armory/"><i class="fas fa-rocket"></i> <span>武&nbsp;器&nbsp;库&nbsp;</span></a></li><li><a href="/crypto/"><i class="fas fa-key"></i> <span>加&nbsp;解&nbsp;密&nbsp;</span></a></li><li><a href="/message/"><i class="fab fa-snapchat-ghost"></i> <span>聊&nbsp;天&nbsp;室&nbsp;</span></a></li></ul></li><li class="m-nav-item"><a href="javascript:;"><i class="fa-fw fas fa-paper-plane"></i> 关于<span class="m-icon"><i class="fas fa-chevron-right"></i></span></a><ul><li><a href="/about/"><i class="fas fa-address-card"></i> <span>简介</span></a></li><li><a href="/gallery/"><i class="fas fa-image"></i> <span>相册</span></a></li><li><a href="/friends/"><i class="fas fa-link"></i> <span>友链</span></a></li></ul></li></ul></div></div></nav></header><div class="bg-cover bg-header post-cover" style="background-image:url(https://ik.imagekit.io/DongHuangT1/Banner/Banner-05.jpg)"><div class="container" style="right:0;left:0"><div class="row"><div class="col s12 m12 l12"><div class="brand"><h1 class="center-align post-title">Kali</h1></div></div></div></div></div><main class="post-container content"><div class="row"><div id="artDetail" class="col s12 m12 l9"><div class="card"><div class="card-content article-info"><div class="row"><div class="col s7"><div class="article-tag"><a href="/tags/OS/"><span class="chip tab-color">OS</span></a></div></div><div class="col s5 right-align"><div class="post-cate"><i class="fas fa-layer-group fa-fw icon-category"></i> <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">笔记</a></div></div></div><div class="post-info"><div class="info-break-policy"><i class="far fa-calendar-minus fa-fw"></i> 发布日期:&nbsp; 2020-09-03</div><div class="info-break-policy"><i class="far fa-file-word fa-fw"></i> 文章字数:&nbsp; 1.8k</div><div class="info-break-policy"><i class="far fa-clock fa-fw"></i> 阅读时长:&nbsp; 7分</div><div class="info-break-policy"><i class="far fa-eye fa-fw"></i> 阅读次数:&nbsp;&nbsp;<span id="twikoo_visitors"></span></div></div></div><hr class="clearfix"><div class="card-content artCard"><div id="artContent"><h2 id="必要掌握"><a href="#必要掌握" class="headerlink" title="必要掌握"></a>必要掌握</h2><h3 id="NC"><a href="#NC" class="headerlink" title="NC"></a>NC</h3><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">-u                              #UDP模式
+-l                              #监听连接
+-p                              #指定端口
+-c                              #执行命令
+-e                              #执行程序
+-v                              #详细信息
+-z                              #扫描模式
+-k                              #保持监听
+-q                              #X秒后退出
+-n                              #DNS不解析</code></pre><h3 id="FTP"><a href="#FTP" class="headerlink" title="FTP"></a>FTP</h3><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">open                            #连接FTP
+get                             #下载文件
+put                             #上传文件
+delete                          #删除文件
+hash                            #显示进度
+bye                             #断开连接</code></pre><h3 id="SSH"><a href="#SSH" class="headerlink" title="SSH"></a>SSH</h3><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">-b &lt;IP&gt;                         #指定地址
+-C                              #数据压缩
+-f                              #后台运行
+-i &lt;File&gt;                       #指定私钥
+-N                              #禁止命令
+-p &lt;Port&gt;                       #指定端口
+-q                              #静默模式</code></pre><h2 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h2><h3 id="Nmap"><a href="#Nmap" class="headerlink" title="Nmap"></a>Nmap</h3><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">-n                              #跳过DNS
+-p &lt;Port&gt;                       #扫描端口
+-F                              #快速扫描
+-O                              #系统检测
+-A                              #高级扫描
+-Pn                             #跳过存活
+-iL &lt;File&gt;                      #列表文件
+-sn                             #Ping扫描
+-sV                             #版本探测
+-sS                             #TCP SYN
+-sA                             #TCP ACK
+-sF                             #TCP FIN
+-sX                             #TCP Xmas
+-sU                             #UDP 扫描
+-sN                             #TCP Null
+-sT                             #TCP全连接
+-sW                             #TCP Window
+-sM                             #TCP Maimon
+--mtu &lt;Val&gt;                     #分片发包
+--spoof-mac &lt;MAC&gt;               #伪造MAC
+--dns-servers &lt;Host&gt;            #指定DNS
+--script&#x3D;&lt;auth&#x2F;vuln&#x2F;..&gt;         #扫描脚本</code></pre><h3 id="Hping"><a href="#Hping" class="headerlink" title="Hping"></a>Hping</h3><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">-c &lt;Num&gt;                        #发包数目
+-i &lt;Time&gt;                       #时间间隔
+-q                              #静默模式
+-p &lt;Port&gt;                       #目的端口
+-d &lt;Size&gt;                       #发包大小
+-E &lt;File&gt;                       #文件数据
+-e &lt;Key&gt;                        #签名信息
+-B                              #安全协议
+--udp                           #UDP 模式
+--icmp                          #ICMP模式
+--scan                          #扫描模式
+--listen                        #监听模式
+--flood                         #极速发包
+--rand-source                   #随机源IP
+---------------------------------------------
+-S                              #SYN标志位
+-A                              #ACK标志位
+-F                              #FIN标志位
+-R                              #RST标志位
+-P                              #PSH标志位
+-U                              #URG标志位</code></pre><h3 id="Masscan"><a href="#Masscan" class="headerlink" title="Masscan"></a>Masscan</h3><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">-c &lt;File&gt;                       #读取配置扫描
+-p &lt;Port&gt;                       #指定端口扫描
+-iL &lt;File&gt;                      #指定列表文件
+-oL &lt;File&gt;                      #生成主机文件
+--rate                          #指定发包速率
+--echo                          #重定向当前配置
+--banners                       #获取Banner信息</code></pre><h2 id="Web工具"><a href="#Web工具" class="headerlink" title="Web工具"></a>Web工具</h2><h3 id="Dirb"><a href="#Dirb" class="headerlink" title="Dirb"></a>Dirb</h3><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">-o &lt;File&gt;                       #输出成文件
+-r                              #不递归搜索
+-R                              #交互式递归
+-X &lt;Name&gt;                       #附加后缀名
+-a &lt;UA&gt;                         #自定义UA值
+-c &lt;Cookie&gt;                     #设置Cookie
+-z &lt;Time&gt;                       #设置延迟(ms)
+-u &lt;User:Passwd&gt;                #HTTP身份验证
+-w                              #忽略警告信息
+-i                              #不区分大小写
+-H &lt;Header&gt;                     #自定义Header
+</code></pre><h3 id="Sqlmap"><a href="#Sqlmap" class="headerlink" title="Sqlmap"></a>Sqlmap</h3><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">-u &lt;url&gt;                        #目标URL
+-m &lt;file&gt;                       #目标文件
+-r &lt;reqfile&gt;                    #请求文件
+--data                          #POST参数
+--batch                         #自动默认
+--method&#x3D;PUT                    #请求方式
+--random-agent                  #随机UA值
+--cookie&#x3D;COOKIE                 #Cookie值
+--------------------------------------------------------------
+--banner                        #数据库版本
+--is-dba                        #是否管理员
+--users                         #枚举DB用户
+--passwords                     #枚举DB哈希
+--current-db                    #当前数据库
+--current-user                  #当前用户名
+--sql-shell                     #数据库交互
+--dbs                           #枚举所有库
+-D                              #指定枚举库
+--tables                        #枚举所有表
+-T                              #指定枚举表
+--columns                       #枚举所有列
+-C                              #指定枚举列
+--dump                          #下载当前数据
+--dump-all                      #下载所有数据
+--------------------------------------------------------------
+--os-shell                      #交互命令
+--os-cmd&#x3D;CMD                    #执行命令
+--file-read&#x3D;FILE                #读取文件
+--file-write&#x3D;LFILE              #写入文件
+--file-dest&#x3D;PWD                 #目标路径</code></pre><h3 id="WPScan"><a href="#WPScan" class="headerlink" title="WPScan"></a>WPScan</h3><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">--url &lt;URL&gt;                     #指定扫描URL
+-o &lt;File&gt;                       #输出成文件
+-e [opts]
+    vp                          #枚举漏洞插件
+    ap                          #枚举所有插件
+    p                           #枚举热门插件
+    vt                          #枚举漏洞主题
+    at                          #枚举所有主题
+    t                           #枚举热门主题
+    cb                          #枚举配置备份
+    tt                          #枚举Timthumb
+    u                           #枚举用户名
+-P &lt;File&gt;                       #指定密码字典
+-U &lt;File&gt;                       #指定用户字典
+--rua                           #随机UserAgent
+--stealthy                      #隐蔽检测模式
+--http-auth &lt;User:Passwd&gt;       #用户认证登录</code></pre><h2 id="密码破解"><a href="#密码破解" class="headerlink" title="密码破解"></a>密码破解</h2><h3 id="John"><a href="#John" class="headerlink" title="John"></a>John</h3><blockquote><p>unshadow /etc/passwd /etc/shadow &gt; passwd</p></blockquote><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">--single                        #变形猜解
+--wordlist&#x3D;file                 #字典破解
+--incremental[:mode]            #增量破解
+--format&#x3D;name                   #Hash类型
+--restore                       #恢复中断
+--show                          #显示已知</code></pre><h3 id="Hydra"><a href="#Hydra" class="headerlink" title="Hydra"></a>Hydra</h3><blockquote><p>hydra -l User -P Passwd -f -vV Service://Host:Port</p></blockquote><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">-R                              #继续上次进度
+-I                              #忽略还原文件
+-l                              #指定用户名
+-L                              #指定用户字典
+-p                              #指定密码
+-P                              #指定密码字典
+-x &lt;Min:Max:Char&gt;               #密码暴力生成
+-u                              #循环用户名
+-t &lt;Num&gt;                        #指定线程数
+-S                              #强制使用SSL
+-w &lt;Time&gt;                       #设置超时时间
+-o &lt;File&gt;                       #结果输出文件
+-V                              #显示详细过程
+-s &lt;Port&gt;                       #指定非默认端口
+-f                              #破解成功就中止
+-e &lt;n&#x2F;s&#x2F;r&gt;                      #空&#x2F;密码&#x3D;用户&#x2F;颠倒</code></pre><h3 id="Crunch"><a href="#Crunch" class="headerlink" title="Crunch"></a>Crunch</h3><blockquote><p>crunch 7 7 -t p@ss,%^ -l a@aaaaa</p></blockquote><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">-s &lt;Str&gt;                        #起始字符串
+-e &lt;Str&gt;                        #停止字符串
+-p &lt;x ..&gt;                       #组合元素生成
+-o &lt;File&gt;                       #输出指定文件
+-l                              #字符实义字符(与-t联用)
+-z                              #压缩生成文件(gzip,bzip2,lzma,7z)
+-b &lt;Num&gt;                        #文件输出大小(kb,mb,gb,kib,mib,gib)
+-t                              #密码输出格式(%数字 ^符号 @小写 ,大写)
+-f                              #指定库中字符集(&#x2F;usr&#x2F;share&#x2F;crunch&#x2F;charset.lst)</code></pre><h3 id="Chntpw"><a href="#Chntpw" class="headerlink" title="Chntpw"></a>Chntpw</h3><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">fdisk -l
+mkdir &#x2F;mnt&#x2F;c
+mount &#x2F;dev&#x2F;sda1 &#x2F;mnt&#x2F;c
+cd &#x2F;mnt&#x2F;c&#x2F;Windows&#x2F;system32&#x2F;config
+------------------------------
+-u                              #修改用户
+-l                              #所有用户
+-i                              #交互模式</code></pre><h3 id="Medusa"><a href="#Medusa" class="headerlink" title="Medusa"></a>Medusa</h3><blockquote><p>medusa -h Host -u User -P Passwd -e ns -f -M Service</p></blockquote><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">-h                              #指定目标主机
+-H &lt;File&gt;                       #指定列表文件
+-u                              #指定用户名
+-U &lt;File&gt;                       #指定用户字典
+-p                              #指定密码
+-P &lt;File&gt;                       #指定密码字典
+-e &lt;n&#x2F;s&#x2F;ns&gt;                     #空&#x2F;密码&#x3D;用户
+-s                              #强制使用SSL
+-O &lt;File&gt;                       #结果输出文件
+-v &lt;0-6&gt;                        #显示详细信息
+-M                              #要执行的模块
+-L                              #用户并行登录
+-t &lt;Num&gt;                        #同时测试登录数
+-T &lt;Num&gt;                        #同时测试主机数
+-f                              #破解成功就中止
+-n &lt;Port&gt;                       #指定非默认端口</code></pre><h3 id="Hashcat"><a href="#Hashcat" class="headerlink" title="Hashcat"></a>Hashcat</h3><blockquote><p>hashcat -a 0/1/3 -m typeID Hash Dict</p></blockquote><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">-a &lt;0&#x2F;1&#x2F;2&gt;                      #破解模式[字典&#x2F;组合&#x2F;掩码]
+-m &lt;id&gt;                         #Hash类型ID
+-i  --increment                 #增量破解
+    --increment-min             #最小长度
+    --increment-max             #最大长度
+--force                         #忽略警告
+--show                          #显示已知</code></pre><h2 id="嗅探欺骗"><a href="#嗅探欺骗" class="headerlink" title="嗅探欺骗"></a>嗅探欺骗</h2><h3 id="Bettercap"><a href="#Bettercap" class="headerlink" title="Bettercap"></a>Bettercap</h3><blockquote><p>bettercap -caplet http(s)-ui</p></blockquote><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">arp.spoof                       #ARP欺骗
+dns.spoof                       #DNS欺骗
+net.show                        #缓存主机
+net.probe                       #主动探测
+net.sniff                       #开启嗅探
+http.proxy                      #HTTP代理
+---------------------------------------------------------------
+arp.spoof.targets IP            #欺骗IP地址
+dns.spoof.domains Domain        #欺骗的域名
+dns.spoof.address IP&#x2F;Domain     #重定向地址
+net.sniff.verbose false         #精简化显示
+http.proxy.sslstrip true        #HTTPS降级
+http.proxy.injectjs URL&#x2F;File&#x2F;JS #植入到页面</code></pre><h2 id="数字取证"><a href="#数字取证" class="headerlink" title="数字取证"></a>数字取证</h2><h3 id="Steghide"><a href="#Steghide" class="headerlink" title="Steghide"></a>Steghide</h3><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">embed                           #嵌入数据
+extract                         #提取数据
+info                            #显示信息
+encinfo                         #支持算法
+-ef                             #嵌入文件
+-cf                             #覆盖文件
+-sf                             #提取文件
+-p                              #指定密码
+-e                              #加密方式</code></pre><h2 id="Metasploit"><a href="#Metasploit" class="headerlink" title="Metasploit"></a>Metasploit</h2><h3 id="Console"><a href="#Console" class="headerlink" title="Console"></a>Console</h3><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">search script web_delivery
+show options&#x2F;targets&#x2F;advanced
+set autorunscript migrate -N explorer.exe
+handler -H x.x.x.x -P yyyy -p Payload
+route add 192.168.0.0&#x2F;24 ID
+sessions -u ID</code></pre><h3 id="Msfvenom"><a href="#Msfvenom" class="headerlink" title="Msfvenom"></a>Msfvenom</h3><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">-p                              #有效载荷
+-l                              #列出模块
+-f                              #载荷格式
+-e                              #编码方式
+-i                              #编码次数
+-b                              #规避字符
+-o                              #输出文件
+--smallest                      #最小载荷
+--encrypt                       #加密方式
+--encrypt-key                   #加密密钥</code></pre><h3 id="Meterpreter"><a href="#Meterpreter" class="headerlink" title="Meterpreter"></a>Meterpreter</h3><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">bg                              #退至后台
+run                             #POST模块
+load                            #使用扩展
+shell                           #系统命令
+search                          #搜索文件
+upload                          #上传文件
+download                        #下载文件
+-----------------------------------------------------
+sysinfo                         #系统信息
+portfwd                         #端口转发
+clearev                         #清除日志
+hashdump                        #提取哈希
+getsystem                       #尝试提权
+-----------------------------------------------------
+screenshot                      #屏幕截图
+screenshare                     #远程桌面
+keyscan_dump                    #显示捕获
+keyscan_start                   #开始捕获
+keyscan_stop                    #停止捕获
+record_mic                      #录制麦克风
+webcam_list                     #列出摄像头
+webcam_snap                     #摄像头快照
+webcam_stream                   #摄像头视频</code></pre></div><hr><div class="reprint" id="reprint-statement"><div><span class="reprint-meta" style="font-weight:700"><i class="fas fa-user">文章作者:</i></span> <span class="reprint-info"><a href="https://DongHuangT1.com" rel="external nofollow noreferrer">DongHuangT1</a></span></div><div><span class="reprint-meta" style="font-weight:700"><i class="fas fa-link">文章链接:</i></span> <span class="reprint-info"><a href="https://DongHuangT1.com/writings/Kali/">https://DongHuangT1.com/writings/Kali/</a></span></div><div><span class="reprint-meta" style="font-weight:700"><i class="fas fa-copyright">版权声明:</i></span> <span class="reprint-info">本博客所有文章除特別声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY-NC 4.0</a> 许可协议。转载请注明来源 <a href="https://DongHuangT1.com" target="_blank">DongHuangT1</a> !</span></div></div></div></div><div class="card comments"><div class="comments-title"><i class="fas fa-comments fa-fw"></i> <span>评论</span></div><div class="comments-twikoo"></div></div><script src="https://fastly.jsdelivr.net/gh/DongHuangT1/DongHuangT1.github.io/library/twikoo/twikoo.js"></script><article class="prev-next"><div class="row article-row"><div class="article col s12 m6"><div class="card"><div class="article-badge left-badge text-color"><i class="fas fa-chevron-left"></i> &nbsp;上一篇</div><a href="/writings/RedTeam-8/"><div class="card-image"><img src="https://fastly.jsdelivr.net/gh/DongHuangT1/DongHuangT1.github.io/images/loading.gif" data-src="https://images.unsplash.com/photo-1548092372-0d1bd40894a3?fit=crop&amp;w=1920&amp;h=1080&amp;q=80" class="responsive-img" alt="奇技淫巧"> <span class="card-title">奇技淫巧</span></div></a><div class="card-content art-content"><div class="summary block-with-text">╔════════════════╗<br>║ “复制粘贴”之奇技淫巧 ║<br>╚════════════════╝</div><div class="publish-info"><span class="publish-date"><i class="far fa-clock fa-fw icon-date"></i> 2021-02-05</span><span class="publish-author"><i class="fas fa-layer-group fa-fw icon-category"></i> <a href="/categories/%E5%AE%89%E5%85%A8/" class="post-category">安全</a></span></div></div><div class="card-action article-tags"><a href="/tags/RedTeam/"><span class="chip tab-color">RedTeam</span></a></div></div></div><div class="article col s12 m6"><div class="card"><div class="article-badge right-badge text-color">下一篇&nbsp;<i class="fas fa-chevron-right"></i></div><a href="/writings/Windows/"><div class="card-image"><img src="https://fastly.jsdelivr.net/gh/DongHuangT1/DongHuangT1.github.io/images/loading.gif" data-src="https://images.unsplash.com/photo-1518770660439-4636190af475?fit=crop&amp;w=1920&amp;h=1080&amp;q=80" class="responsive-img" alt="Windows"> <span class="card-title">Windows</span></div></a><div class="card-content art-content"><div class="summary block-with-text">Windows操作系统是美国微软公司研发的一套操作系统，问世于1985年，经过微软不断的更新升级，是当前应用最广泛的操作系统。</div><div class="publish-info"><span class="publish-date"><i class="far fa-clock fa-fw icon-date"></i> 2020-08-27</span><span class="publish-author"><i class="fas fa-layer-group fa-fw icon-category"></i> <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">笔记</a></span></div></div><div class="card-action article-tags"><a href="/tags/OS/"><span class="chip tab-color">OS</span></a></div></div></div></div></article></div><div id="tocDetail" class="col l3 hide-on-med-and-down"><div><div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div><div class="toc-content"></div></div></div></div></main><footer class="page-footer bg-color"><div class="container row center-align"><div class="col s12 m8 l8 copy-right">Copyright&nbsp;&copy; <span id="year">2020</span> <a href="https://DongHuangT1.com" target="_blank">DongHuangT1</a><br><span id="sitetime">载入运行时间...</span><br></div><div class="col s12 m4 l4 social-link"><a href="https://github.com/DongHuangT1" class="tooltipped" target="_blank" data-tooltip="我的GitHub" data-position="top" data-delay="50"><i class="fab fa-github"></i></a><a href="https://twitter.com/DongHuangT1" class="tooltipped" target="_blank" data-tooltip="我的Twitter" data-position="top" data-delay="50"><i class="fab fa-twitter"></i></a><a href="mailto:DongHuangT1@qq.com" class="tooltipped" target="_blank" data-tooltip="我的Email" data-position="top" data-delay="50"><i class="fas fa-envelope"></i></a><a href="https://DongHuangT1.com/RSS.xml" class="tooltipped" target="_blank" data-tooltip="RSS订阅" data-position="top" data-delay="50"><i class="fas fa-rss"></i></a></div></div></footer><div id="ChatRobot" class="modal"><div class="chat_head center-align"><span class="chat_name">智能闲聊</span><i class="fas fa-times modal-close"></i></div><div class="chat_body"><ul><li class="left"><img no-lazy src="https://fastly.jsdelivr.net/gh/DongHuangT1/DongHuangT1.github.io/images/robot.jpg" class="left"><div><div class="chat_user">机器人</div><span class="left">Hello，你可以和我聊聊天</span></div></li></ul></div><div class="chat_foot"><textarea></textarea> <button class="btn waves-effect waves-light right disabled">发送</button></div></div><div id="RobotBtn"><a class="btn-floating btn-large waves-effect waves-light modal-trigger btn-color" href="#ChatRobot"><i class="fas fa-comment-dots"></i></a></div><div id="BackTop"><a class="btn-floating btn-large waves-effect waves-light" href="#!"><i class="fas fa-arrow-up"></i></a></div><div id="TocBtn" class="hide-on-med-and-down"><a class="btn-floating btn-large teal accent-4"><i class="fas fa-list-ul"></i></a></div><div id="Search" class="modal"><div class="SearchHeader"><span class="title"><i class="fas fa-search"></i> &nbsp;搜索</span> <input id="SearchInput" type="search" placeholder="请输入搜索的关键字"></div><ul id="SearchResult"></ul></div><div class="progress"><div class="determinate"></div></div><script src="https://fastly.jsdelivr.net/gh/DongHuangT1/DongHuangT1.github.io/library/lightgallery/lightgallery.js"></script><script src="https://fastly.jsdelivr.net/gh/DongHuangT1/DongHuangT1.github.io/library/materialize/materialize.js"></script><script src="https://fastly.jsdelivr.net/gh/DongHuangT1/DongHuangT1.github.io/library/instantpage/instantpage.js"></script><script src="https://fastly.jsdelivr.net/gh/DongHuangT1/DongHuangT1.github.io/library/tocbot/tocbot.js"></script><script src="https://fastly.jsdelivr.net/gh/DongHuangT1/DongHuangT1.github.io/master/master.js"></script></body></html>
